@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Destinations | Travel Planner</title>
+  <link rel="stylesheet" href="destinations.css"/>
+  <script src="destinations.js" defer></script>
+  
+</head>
+<body>
+  <header>
+    <h1>Popular Destinations</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="itinerary.html">Itinerary</a>
+    <a href="budget.html">Budget</a>
+    <a href="resources.html">Resources</a>
+  </nav>
+
+  <div class="search-filter">
+    <input type="text" id="searchInput" placeholder="Search destinations...">
+    <select id="regionFilter">
+      <option value="">All Regions</option>
+      <option value="asia">Asia</option>
+      <option value="europe">Europe</option>
+      <option value="americas">Americas</option>
+    </select>
+  </div>
+
+  <div class="destinations-grid" id="destinationsGrid">
+    <!-- Destination Cards -->
+    <div class="card" data-region="asia">
+      <img src="img/bali.jpg" alt="Bali">
+      <div class="card-content">
+        <h3>Bali, Indonesia</h3>
+        <p>Beautiful beaches, temples, and vibrant culture.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="europe">
+      <img src="img/paris.jpg" alt="Paris">
+      <div class="card-content">
+        <h3>Paris, France</h3>
+        <p>City of love, Eiffel Tower, and French cuisine.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="americas">
+      <img src="img/New York.jpg" alt="New York">
+      <div class="card-content">
+        <h3>New York, USA</h3>
+        <p>Urban adventures, skyscrapers, and Times Square.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="europe">
+      <img src="img/switzerland.jpg" alt="Switzerland">
+      <div class="card-content">
+        <h3>Switzerland</h3>
+        <p>Snowy mountains, lakes, and scenic train rides.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="asia">
+      <img src="img/thailand.jpg" alt="Thailand">
+      <div class="card-content">
+        <h3>Thailand</h3>
+        <p>Street food, islands, and rich history.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="asia">
+      <img src="https://source.unsplash.com/300x160/?bali" alt="Bali">
+      <div class="card-content">
+        <h3>Bali, Indonesia</h3>
+        <p>Beautiful beaches, temples, and vibrant culture.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="europe">
+      <img src="img/paris.jpg" alt="Paris">
+      <div class="card-content">
+        <h3>Paris, France</h3>
+        <p>City of love, Eiffel Tower, and French cuisine.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="americas">
+      <img src="img/New York.jpg" alt="New York">
+      <div class="card-content">
+        <h3>New York, USA</h3>
+        <p>Urban adventures, skyscrapers, and Times Square.</p>
+      </div>
+    </div>
+
+    <div class="card" data-region="europe">
+      <img src="e" alt="Switzerland">
+      <div class="card-content">
+        <h3>Switzerland</h3>
+        <p>Snowy mountains, lakes, and scenic train rides.</p>
+      </div>
+    </div>
+
+  
+</body>
+</html>

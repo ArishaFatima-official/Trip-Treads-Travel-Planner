@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+  }
+
+  header {
+    background-color: rgb(1, 31, 75);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #03396c;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+#outercontainer{
+  background-image: url(img/itineraryback.jpg);
+  background-size: cover;
+}
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 70px;
+    background-color: rgb(196, 210, 219);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  }
+
+  h2 {
+    color: #1e3d59;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #121b4b;
+    background-color: #f8fdff;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  button {
+    background-color: #1e3d59;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #145374;
+  }
+
+  .itinerary-list {
+    margin-top: 30px;
+  }
+
+  .itinerary-item {
+    background-color: #f0f2f5;
+    border-left: 4px solid #1e3d59;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .itinerary-item h4 {
+    margin: 0 0 5px;
+    color: #163447;
+  }
+
+  .itinerary-item p {
+    margin: 3px 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .no-plan {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+  }
